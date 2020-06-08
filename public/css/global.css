@@ -1,0 +1,94 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /*background-color:var(--bg);*/
+    color: var(--text);
+
+    background-image: url("/img/cinema_bg.jpg");
+    background-attachment: fixed;
+
+    background-size: cover;
+}
+
+:root{
+    --bg:#1F2739;
+    --bg-panel: #272f40;
+
+    --text:#dadada;
+    --text-main:#4DC3FA;
+    --text-blue:#185875;
+    --text-red:#FB667A;
+    --text-yellow:#FFF842;
+
+
+    /* gradient color   */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+    /*      theme font-family   */
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin : 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic : 'Livvic', cursive;
+}
+
+
+/* ---------------- Global Classes ---------------*/
+
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: var(--Lexend);
+    color: var(--text-yellow)
+}
+
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
+
+span{
+    font-family: var(--Abel);
+}
+p{
+    color: var(--text);
+}
+
+.container{
+
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--bg);
+    padding: 5px;
+    border-radius: 5px;
+    /*border: 2px solid #505978;*/
+}
